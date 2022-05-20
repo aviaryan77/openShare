@@ -12,7 +12,11 @@
   "dependencies": {
     "react": "17.0.2",
     "react-native": "0.68.2",
-    "react-native-share-menu": "^6.0.0"
+    "react-native-document-picker": "^8.1.0",
+    "react-native-fs": "^2.20.0",
+    "react-native-render-html": "^6.3.4",
+    "react-native-share-menu": "^6.0.0",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",

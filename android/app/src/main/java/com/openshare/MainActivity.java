@@ -4,6 +4,8 @@ import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.ReactRootView;
 
+import com.rnfs.RNFSPackage; 
+
 public class MainActivity extends ReactActivity {
 
   /**
@@ -37,4 +39,14 @@ public class MainActivity extends ReactActivity {
       return reactRootView;
     }
   }
+
+  //  @Override
+  //   protected List<ReactPackage> getPackages() {
+  //     return Arrays.<ReactPackage>asList(
+  //       new MainReactPackage(), // <---- add comma
+  //       new RNFSPackage() // <---------- add package
+  //     );
+  //   }
+
+
 }
