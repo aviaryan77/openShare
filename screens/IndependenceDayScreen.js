@@ -27,7 +27,7 @@ const IndependenceDayScreen = () => {
             alignItems: 'center',
             borderRadius: height / 8,
             justifyContent: 'center',
-            backgroundColor: '#0000AA',
+            borderColor: '#0000AA',
           }}>
           <View
             style={{
@@ -48,7 +48,7 @@ const IndependenceDayScreen = () => {
                     height: 2,
                     width: '100%',
                     position: 'absolute',
-                    backgroundColor: '#000000',
+                    backgroundColor: '#0000AA',
                     transform: [{rotate: `${item.toFixed(0)}deg`}],
                   }}
                 />
