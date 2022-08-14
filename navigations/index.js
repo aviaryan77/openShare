@@ -7,7 +7,7 @@ import {
   createStackNavigator,
 } from '@react-navigation/stack';
 
-import {CsvScreen, HomeScreen} from '../screens';
+import {CsvScreen, HomeScreen, IndependenceDayScreen} from '../screens';
 import {theme} from '../constants/theme';
 
 const Stack = createStackNavigator();
@@ -22,6 +22,10 @@ const MainNavigator = () => {
           cardStyle: {backgroundColor: theme.bg},
           cardStyleInterpolator: CardStyleInterpolators.forHorizontalIOS,
         }}>
+        <Stack.Screen
+          name="IndependenceDayScreen"
+          component={IndependenceDayScreen}
+        />
         <Stack.Screen name="HomeScreen" component={HomeScreen} />
         <Stack.Screen name="CsvScreen" component={CsvScreen} />
       </Stack.Navigator>
